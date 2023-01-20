@@ -80,6 +80,8 @@ router.post("/setReminder",(req,res)=>{
           }
       })
 }
+  },{
+    timezone: 'Asia/Kolkata'
   });
 })
 module.exports = router;
